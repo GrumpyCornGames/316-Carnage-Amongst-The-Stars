@@ -1,0 +1,63 @@
+{
+  "id": "316-carnage-amongst-the-stars-custom-system-builder",
+  "title": "3:16 Carnage Amongst The Stars (Custom System Builder)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "sync-token-name",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "_chatcommands",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "316-carnage-amongst-the-stars",
+      "label": "3:16 Carnage Amongst The Stars",
+      "path": "packs/316-carnage-amongst-the-stars",
+      "type": "Adventure",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "authors": [
+    {
+      "name": "Grumpy Corn Games",
+      "email": "grumpycorngames@gmail.com",
+      "url": "www.grumpycorngames.com",
+      "flags": {}
+    }
+  ]
+}

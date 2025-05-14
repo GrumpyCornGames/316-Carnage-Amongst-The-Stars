@@ -1,0 +1,8 @@
+2025/05/14-12:00:32.002903 f365b500f100 Recovering log #79
+2025/05/14-12:00:32.007997 f365b500f100 Delete type=0 #79
+2025/05/14-12:00:32.008037 f365b500f100 Delete type=3 #78
+2025/05/14-16:01:33.978034 f365a600f100 Level-0 table #83: started
+2025/05/14-16:01:33.978070 f365a600f100 Level-0 table #83: 0 bytes OK
+2025/05/14-16:01:33.981041 f365a600f100 Delete type=0 #81
+2025/05/14-16:01:33.986958 f365a600f100 Manual compaction at level-0 from '!actors!0qig4FJdbagQGa2K' @ 72057594037927935 : 1 .. '!folders!pPAgGaGyqNYaRFci' @ 0 : 0; will stop at (end)
+2025/05/14-16:01:33.987012 f365a600f100 Manual compaction at level-1 from '!actors!0qig4FJdbagQGa2K' @ 72057594037927935 : 1 .. '!folders!pPAgGaGyqNYaRFci' @ 0 : 0; will stop at (end)
